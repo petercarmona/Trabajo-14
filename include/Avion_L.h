@@ -6,6 +6,7 @@ class Avion_L : public Avion
 {
     public:
         Avion_L();
+        void Print();
         ~Avion_L();
 
 };

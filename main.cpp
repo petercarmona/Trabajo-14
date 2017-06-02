@@ -15,6 +15,9 @@ int main()
     t.aviones.push_back(& avi_m);
     t.aviones.push_back(& avi_l);
     for(size_t i = 0; i < t.aviones.size();i++)
+        {
+            t->aviones[i]->Print();
+        }
 
     return 0;
 }
